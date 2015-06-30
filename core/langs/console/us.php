@@ -15,6 +15,7 @@ return array(
     "console.command.makeHashes.files.found" => "Files are found",
     "console.command.makeHashes.success" => "The MD5-Hashes of all files are generatet and saved.",
     "console.command.makeHashes.help" => "\tUsage: php console makeHashes [--silent]\n\tgenerates MD5-HAshes of all files in the MyOnePager installation and protects Fileinclusion\n\t--silent -generates MD5-Hashes without output.",
-    "console.command.phpshell.help" => "\tUsage: php console update [--do-update]\n\tChecks for updates. With the option --do-update the update will be done",
+    "console.command.phpshell.help" => "\tUsage: php console phpshell\n\tAllows you to edit the sourcecode in a shell",
+	"console.command.update.help" => "\tUsage: php console update [--do-update]\n\tChecks for updates. With the option --do-update the update will be done",
     "console.command.version.help" => "\tUsage: php console version\n\tShows the version of all MyOnePager components and of all installed plugins",
 );
