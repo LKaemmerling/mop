@@ -6,7 +6,7 @@ return array(
     "console.command.help.title" => "Hilfe",
     "console.command.help.options" => "Benutzung: php console [option] [command]",
     "console.command.help.withoutclear" => "Verhindert das die Console vor dem Ausführen des Befehles geleert wird.",
-    "console.command.help.withdebug" => "Zeigt Debugwerte aus dem MyOnePager System",
+    "console.command.help.withdebug" => "Zeigt Debugwerte aus dem %software% System",
     "console.command.genPluginInfo.success" => "Die plugin.json des Plugins \"%plugin%\" wurde erfolgreich neugeneriert.",
     "console.command.genPluginInfo.pluginnotfound" => "Das Plugin \"%plugin%\" konnte nicht im System gefunden werden. \r\nIst es überhaupt installiert?",
     "console.command.genPluginInfo.help" => "\tBenutzung: php console genPluginInfo --id=plugin.id\n\tGeneriert die plugin.json des Plugins neu.",
