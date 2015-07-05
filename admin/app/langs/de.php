@@ -1,6 +1,9 @@
 <?php
 
 return [
+    "admin.header.title" => "Verwaltungsoberfläche",
+    "admin.nav.toggle" => "Navigation ein-/ausblenden",
+    "admin.software.copyright" => "&copy; %software% %adminversion%",
     "admin.login.title" => "Administrator Login",
     "admin.login.form.mail" => "E-Mail Adresse",
     "admin.login.form.mail.placeholder" => "Ihre E-Mail Adresse",
@@ -17,5 +20,21 @@ return [
     "admin.dashboard.tabs.system.space.unit" => "Gigabyte",
     "admin.dashboard.tabs.system.core.version" => "%software%Core Version:",
     "admin.dashboard.tabs.system.app.version" => "%software% Version:",
-    "admin.dashboard.tabs.system.admin.version" => "%software%Admin Version:"
+    "admin.dashboard.tabs.system.admin.version" => "%software%Admin Version:",
+    "admin.dashboard.tabs.license.invalid" => "Die %software% Lizenz ist ungültig. Bitte melde sie Sich bei:",
+    "admin.dashboard.tabs.license.id" => "Lizenzid:",
+    "admin.dashboard.tabs.license.key" => "Lizenzkey:",
+    "admin.dashboard.tabs.license.dealer" => "Händler:",
+    "admin.dashboard.tabs.license.releaseChannel" => "Update Kanal:",
+    "admin.dashboard.tabs.license.lastLicenseUpdate" => "letzter Lizenzabruf:",
+    "admin.404" => "Die angeforderte Seite wurde nicht gefunden.",
+    "admin.console.title" => "%software% Konsole",
+    "admin.console.form.command" => "Befehl",
+    "admin.console.form.parameter" => "Übergabevariable",
+    "admin.console.form.parameter.help" => "Mehrere Parameter werden leerzeichen getrennt hintereinander geschrieben",
+    "admin.console.form.button" => "Absenden",
+    "admin.settings.title" => "Systemeinstellungen",
+    "admin.settings.form.success" => "Die Einstellung wurde erfolgreich geändert.",
+    "admin.settings.form.error" => "Es gab einen Fehler beim Ändern der Einstellung.",
+    "admin.settings.form.button" => "%setting% speichern",
 ];

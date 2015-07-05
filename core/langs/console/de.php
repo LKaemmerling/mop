@@ -14,8 +14,11 @@ return array(
     "console.command.installPlugin.help" => "\tBenutzung: php console installPlugin --id=plugin.id\n\tInstalliert ein Plugin welches via --id angegeben wird",
     "console.command.makeHashes.files.found" => "Datein wurden gefunden",
     "console.command.makeHashes.success" => "Die MD5-Hashes aller Datein wurden generiert und gespeichert.",
-    "console.command.makeHashes.help" => "\tBenutzung: php console makeHashes [--silent]\n\tGeneriert MD5-Hashes von allen Datein innerhalb der MyOnePager Installation und schützt somit vor Fileinclusion\n\t--silent -generiert alle MD5-Hashes ohne Ausgabe",
+    "console.command.makeHashes.help" => "\tBenutzung: php console makeHashes [--silent]\n\tGeneriert MD5-Hashes von allen Datein innerhalb der %software% Installation und schützt somit vor Fileinclusion\n\t--silent -generiert alle MD5-Hashes ohne Ausgabe",
     "console.command.phpshell.help" => "\tBenutzung: php console phpshell\n\tErlaubt Zugriff auf den Quellcode in einer Shell",
     "console.command.update.help" => "\tBenutzung: php console update [--do-update]\n\tPrüft ob Updates vorhanden sind. Mit der Option --do-update wird das Update ausgeführt",
-    "console.command.version.help" => "\tBenutzung: php console version\n\tZeigt die Versionen aller MyOnePager Komponenten und aller installierten Plugins",
+    "console.command.version.help" => "\tBenutzung: php console version\n\tZeigt die Versionen aller %software% Komponenten und aller installierten Plugins",
+    "console.command.copyright.title" => "%software% Copyright",
+    "console.command.copyright.help" => "Zeigt die Ersteller und Übersetzer von %software% an",
+    "console.command.copyright.text" => "%software% Hauptentwickler: Lukas Kämmerling \n%software% wurde ursprünglich in der deutschen Sprache entwickelt und in diverse andere Sprachen übersetzt. Der Übersetzer für die aktuelle Sprache ist: [HIER NAME DES ÜBERSETZERS]",
 );
